@@ -4,7 +4,7 @@
 
 ## 🌟 Try Our Huggingface Demo!  
 
-[✨ **Click here**](https://huggingface.co/spaces/AutoPresent) to try our demo on Huggingface.  
+[✨ **Click here**](https://huggingface.co/spaces/JiaxinGe/AutoPresent) to try our demo on Huggingface.  
 
 
 This repository contains the code for AutoPresent.
