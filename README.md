@@ -1,8 +1,10 @@
 <div align="center">
   <h1>AutoPresent: Designing Structured Visuals From Scratch</h1>
 </div>
-## 🌟 Try Our Huggingface Demo! 
-[✨ **Click here**](https://huggingface.co/spaces/your-demo-link) to try our demo on Huggingface.  
+
+## 🌟 Try Our Huggingface Demo!  
+
+[✨ **Click here**](https://huggingface.co/spaces/AutoPresent) to try our demo on Huggingface.  
 
 
 This repository contains the code for AutoPresent.
