@@ -2,6 +2,8 @@
   <h1>AutoPresent: Designing Structured Visuals From Scratch</h1>
 </div>
 
+This is the code for the paper [**AutoPresent: Designing Structured Visuals From Scratch**](https://www.arxiv.org/abs/2501.00912) by [Jiaxin Ge*](https://jiaxin.ge/), [Zora Zhiruo Wang*](https://zorazrw.github.io/), [Xuhui Zhou](https://xuhuiz.com/), [Yi-Hao Peng](https://www.yihaopeng.tw/), [Sanjay Subramanian](https://people.eecs.berkeley.edu/~sanjayss/), [Qinyue Tan](https://openreview.net/profile?id=~Qinyue_Tan1), [Maarten Sap](https://maartensap.com/), [Alane Suhr](https://www.alanesuhr.com/), [Daniel Fried](https://dpfried.github.io/), [Graham Neubig](https://www.phontron.com/), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/).
+
 ## 🌟 Try Our Huggingface Demo!  
 
 [✨ **Click here**](https://huggingface.co/spaces/JiaxinGe/AutoPresent) to try our demo on Huggingface.  
