@@ -8,7 +8,7 @@ This is the code for the paper [**AutoPresent: Designing Structured Visuals From
 
 ### 🌟 Try Our online Huggingface Demo!  
 
-[✨ **Click here**](https://huggingface.co/spaces/JiaxinGe/AutoPresent) to try our demo on Huggingface.  
+[**Click here**](https://huggingface.co/spaces/JiaxinGe/AutoPresent) to try our demo on Huggingface.  
 
 ### Notebook
 
@@ -23,9 +23,9 @@ This repository contains the code for AutoPresent.
   - [Generate Programs](#generate-programs)
   - [Refinement](#refinement)
   - [Execution](#execution)
-- [AutoPresent: Training Slide Generation Models](#presenter--slideslib-training-slide-generation-models)
-  - [Model Weights](#weights)
-  - [Model Training](#training)
+- [AutoPresent: Training Slide Generation Models](#autopresent:-training-slide-generation-models)
+  - [Model Weights](#model-weights)
+  - [Model Training](#model-training)
 - [Evaluation](#evaluation)
   - [Reference-based Evaluation](#reference-based-evaluation)
   - [Reference-free Evaluation](#reference-free-evaluation)
@@ -122,7 +122,9 @@ This will ensure that SlidesLib is installed.
 We release the Autopresent model weights for the three challenges:
 
 [Detailed Instructions with Images](https://huggingface.co/JiaxinGe/llama-3.1-8b-autopresent_high_level)
+
 [Detailed Instructions Only](https://huggingface.co/JiaxinGe/llama-3.1-8b-autopresent_detailed_instruction)
+
 [High Level Instructions](https://huggingface.co/JiaxinGe/llama-3.1-8b-autopresent_high_level)
 
 ### Model Training
