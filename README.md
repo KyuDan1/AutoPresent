@@ -23,7 +23,7 @@ This repository contains the code for AutoPresent.
   - [Generate Programs](#generate-programs)
   - [Refinement](#refinement)
   - [Execution](#execution)
-- [AutoPresent: Training Slide Generation Models](#autopresent:-training-slide-generation-models)
+- [AutoPresent: Training Slide Generation Models](#autopresent-training-slide-generation-models)
   - [Model Weights](#model-weights)
   - [Model Training](#model-training)
 - [Evaluation](#evaluation)
