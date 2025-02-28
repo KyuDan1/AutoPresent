@@ -33,7 +33,7 @@ conda create -n slides python=3.10
 conda activate slides
 
 pip install -r requirements.txt
-pip insatll . # to install SlidesLib
+pip install . # to install SlidesLib
 sudo apt-get install unoconv  # for converting pptx to jpg/pdf
 ```
 
