@@ -11,13 +11,21 @@ export PYTHONPATH=$PYTHONPATH:$(pwd)
 
 ## Slides Collection
 
-We collect 10 slide decks from different domains available on [slideshare.com](https://www.slideshare.net/), each slide deck contains 23.3 slides on average.
+We collect 310 slide decks from different domains from slideshare.com, each slide deck contains 23.3 slides on average. Specifically, 
+- train set: 300 slide decks ([link](https://www.slideshare.net/saved/27575466/autopresent_train))
+- test set: 10 slide decks ([link](https://www.slideshare.net/saved/27572898/slides))
+
+We provide the examples created from test slides in `./examples/`. Links to the original slides are: [art_photos](https://www.slideshare.net/slideshow/art-appreciation-subject-and-content-kinds-and-sources-of-subjects/266874796), [business](https://www.slideshare.net/slideshow/airbnb-business-casepptx/262263937), [career](https://www.slideshare.net/slideshow/are-top-grades-enough-ppt/260709991), [design](https://www.slideshare.net/slideshow/graphic-designpptx/251990658), [entrepreneur](https://www.slideshare.net/slideshow/about-entrepreneur-elon-musk-pptx/267322126), [environment](https://www.slideshare.net/slideshow/natural-environment-251014908/251014908), [food](https://www.slideshare.net/slideshow/friends-_-joey-doesn-t-share-food-b1-pptx/270323420), [marketing](https://www.slideshare.net/slideshow/market-around-us-pptx/261987901), [social_media](https://www.slideshare.net/slideshow/contemporary-world-global-media-culturespptx/265794192), [technology](https://www.slideshare.net/slideshow/blockchain-technology1pptx/259106386).
 
 ## Example Creation: Single Slide Generation
 
 Given a slide deck, e.g., `examples/art_photos/art_photos.pptx`, we can parse the media and generate NL instructions for each slide.
 
 First, run `parse_media.py` to collect all the images in the given slide.
+
+```bash
+python parse_media.py --slides_path examples/art_photos/art_photos.pptx --output_dir examples/art_photos
+```
 
 Second, to generate instructions, we start with manually writing three instructions for the first three slides, and save them in `examples/art_photos/slide_{n}/instruction_human.txt`.
 

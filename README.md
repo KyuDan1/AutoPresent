@@ -19,7 +19,7 @@ This repository contains the code for AutoPresent.
   - [Generate Programs](#generate-programs)
   - [Refinement](#refinement)
   - [Execution](#execution)
-- [AutoPresent: Training Slide Generation Models](#autopresent:-training-slide-generation-models)
+- [AutoPresent: Training Slide Generation Models](#autopresent-training-slide-generation-models)
   - [Model Weights](#model-weights)
   - [Model Training](#model-training)
 - [Evaluation](#evaluation)
@@ -193,4 +193,16 @@ To evaluate a single page slide:
 ```bash
 python reference_free_eval.py \
 --image_path ../baseline/examples/art_photos/slide_1/gpt_4o_mini.jpg
+```
+
+## Citation
+If you find our repo or paper useful, please cite us as:
+
+```
+@article{ge2025autopresent,
+  title={AutoPresent: Designing Structured Visuals from Scratch},
+  author={Ge, Jiaxin and Wang, Zora Zhiruo and Zhou, Xuhui and Peng, Yi-Hao and Subramanian, Sanjay and Tan, Qinyue and Sap, Maarten and Suhr, Alane and Fried, Daniel and Neubig, Graham and others},
+  journal={arXiv preprint arXiv:2501.00912},
+  year={2025}
+}
 ```
