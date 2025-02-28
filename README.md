@@ -10,10 +10,6 @@ This is the code for the paper [**AutoPresent: Designing Structured Visuals From
 
 [**Click here**](https://huggingface.co/spaces/JiaxinGe/AutoPresent) to try our demo on Huggingface.  
 
-### Notebook
-
-Coming soon
-
 ## Contents
 This repository contains the code for AutoPresent.
 
