@@ -2,7 +2,10 @@ import os
 import base64
 import argparse
 from pptx import Presentation
+from dotenv import load_dotenv
 
+# .env 파일 로드
+load_dotenv()
 import openai
 openai.api_key = os.environ["OPENAI_API_KEY"]
 client = openai.OpenAI()

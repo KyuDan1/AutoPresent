@@ -2,7 +2,10 @@ import os
 import argparse
 import subprocess
 from utils import encode_image, extract_code_pieces
+from dotenv import load_dotenv
 
+# .env 파일 로드
+load_dotenv()
 import openai
 openai.api_key = os.environ["OPENAI_API_KEY"]
 client = openai.OpenAI()
