@@ -94,7 +94,7 @@ def main():
     for r in response_list:
         success = save_response(r)
         if success: 
-            subprocess.run(["unoconv", "-f", "jpg", pptx_path])  # turn pptx to jpg
+            subprocess.run(["apptainer", "exec", "ubuntu-sandbox", "unoconv", "-f", "jpg", pptx_path])  # turn pptx to jpg
             break
 
 
